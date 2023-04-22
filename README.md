@@ -1,4 +1,4 @@
-# RyansWebScrapes
+# MicrosoftJobAlertScraper
 
 To use the Microsoft job alert web scraper, you will need:
 
