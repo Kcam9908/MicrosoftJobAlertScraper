@@ -49,7 +49,7 @@ while not finished:
 
     #If new jobs, create and send message
     if len(job_list) > 0:
-        print(len(job_list) + " NEW JOB(S) FOUND!!")
+        print(str(len(job_list)) + " NEW JOB(S) FOUND!!")
         for each in job_list:
             job_notif += message.format(**each.attrs)
         print(job_notif)
