@@ -1,5 +1,3 @@
 .vs
 .vscode
-/HTML
-*.html
-/MicrosoftJobAlertScraper/params_file.py
+params_file.py
