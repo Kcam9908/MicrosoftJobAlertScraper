@@ -49,14 +49,15 @@ while not finished:
 
     #If new jobs, create and send message
     if len(job_list) > 0:
-        print("NEW JOBS FOUND!!")
+        print(len(job_list) + " NEW JOB(S) FOUND!!")
         for each in job_list:
             job_notif += message.format(**each.attrs)
+        print(job_notif)
         webhook.send(job_notif)
     else:
         print("No new jobs as of " + datetime.datetime.now().strftime("%m/%d/%y %H:%M:%S"))
 
-    #Wait 15 minutes
+    #Wait time
     time.sleep(params_file.refresh_delay_seconds)
 
     print("Refreshing webpage...")

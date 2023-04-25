@@ -1,3 +1,4 @@
 .vs
 .vscode
 /MicrosoftJobAlertScraper/params_file.py
+/MicrosoftJobAlertScraper/__pycache__/
